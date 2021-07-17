@@ -7,7 +7,7 @@ const Topbar = () => {
     <div className="topbar">
       <div className="topbar-wrapper">
         <div className="top-left">
-          <span className="logo">Marusoft</span>
+          <img src="https://res.cloudinary.com/marusofteamwork/image/upload/v1626514686/website_logo_ciwxlz.png" alt="marusoft-logo" className="logo" />
         </div>
         <div className="top-right">
           <div className="topbar-icon-containers">

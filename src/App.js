@@ -2,7 +2,7 @@ import React from "react";
 import Topbar from "./components/topbar/Topbar";
 import Sidebar from "./components/sidebar/Sidebar";
 
-import "./App.css"
+import "./App.css";
 
 const App = () => {
   return (
@@ -10,7 +10,7 @@ const App = () => {
       <Topbar />
       <div className="container">
         <Sidebar />
-        hello other pages
+        <div className="other-pages"> hello other pages</div>
       </div>
     </div>
   );
