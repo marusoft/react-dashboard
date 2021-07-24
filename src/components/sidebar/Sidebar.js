@@ -39,7 +39,7 @@ const sidebar = () => {
         <div className="sidebar-menu">
           <h3 className="sidebar-title">Quick Menu</h3>
           <ul className="sidebar-list">
-            <li className="sidebar-list-item active">
+            <li className="sidebar-list-item">
               <PermIdentity className="sidebar-icons" />
               Users
             </li>
@@ -60,7 +60,7 @@ const sidebar = () => {
         <div className="sidebar-menu">
           <h3 className="sidebar-title">Notifications</h3>
           <ul className="sidebar-list">
-            <li className="sidebar-list-item active">
+            <li className="sidebar-list-item">
               <Mail className="sidebar-icons" />
               Mail
             </li>
@@ -77,7 +77,7 @@ const sidebar = () => {
         <div className="sidebar-menu">
           <h3 className="sidebar-title">Staff</h3>
           <ul className="sidebar-list">
-            <li className="sidebar-list-item active">
+            <li className="sidebar-list-item">
               <WorkOutline className="sidebar-icons" />
               Manage
             </li>
