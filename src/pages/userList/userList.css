@@ -1,3 +1,28 @@
 .user-list{
   flex: 4;
 }
+.user-list-user{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.user-list-img{
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 1.25rem;
+}
+.user-list-edit{
+  border: none;
+  border-radius: 0.625rem;
+  padding: .3125rem .625rem;
+  background-color: #3bb077;
+  color: #ffffff;
+  cursor: pointer;
+  margin-right: 1.25rem;
+}
+.user-list-delete{
+  color: red;
+  cursor: pointer;
+}

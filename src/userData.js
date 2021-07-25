@@ -48,3 +48,96 @@ export const userData = [
     "Active User": 6000,
   },
 ];
+
+export const userRows = [
+  {
+    id: 1,
+    username: "Jon Snow",
+    avatar:
+      "https://res.cloudinary.com/marusofteamwork/image/upload/v1625065903/frontendassessment/Photo_mnwpfg.png",
+    email: "jon@gmail.com",
+    status: "Active",
+    transactions: "$133.66",
+  },
+  {
+    id: 2,
+    username: "Jon Snow",
+    avatar:
+      "https://res.cloudinary.com/marusofteamwork/image/upload/v1625065903/frontendassessment/Photo_mnwpfg.png",
+    email: "jon@gmail.com",
+    status: "Active",
+    transactions: "$133.66",
+  },
+  {
+    id: 3,
+    username: "Jon Snow",
+    avatar:
+      "https://res.cloudinary.com/marusofteamwork/image/upload/v1625065903/frontendassessment/Photo_mnwpfg.png",
+    email: "jon@gmail.com",
+    status: "Active",
+    transactions: "$133.66",
+  },
+  {
+    id: 4,
+    username: "Jon Snow",
+    avatar:
+      "https://res.cloudinary.com/marusofteamwork/image/upload/v1625065903/frontendassessment/Photo_mnwpfg.png",
+    email: "jon@gmail.com",
+    status: "Active",
+    transactions: "$133.66",
+  },
+  {
+    id: 5,
+    username: "Jon Snow",
+    avatar:
+      "https://res.cloudinary.com/marusofteamwork/image/upload/v1625065903/frontendassessment/Photo_mnwpfg.png",
+    email: "jon@gmail.com",
+    status: "Active",
+    transactions: "$133.66",
+  },
+  {
+    id: 6,
+    username: "Jon Snow",
+    avatar:
+      "https://res.cloudinary.com/marusofteamwork/image/upload/v1625065903/frontendassessment/Photo_mnwpfg.png",
+    email: "jon@gmail.com",
+    status: "Active",
+    transactions: "$133.66",
+  },
+  {
+    id: 7,
+    username: "Jon Snow",
+    avatar:
+      "https://res.cloudinary.com/marusofteamwork/image/upload/v1625065903/frontendassessment/Photo_mnwpfg.png",
+    email: "jon@gmail.com",
+    status: "Active",
+    transactions: "$133.66",
+  },
+  {
+    id: 8,
+    username: "Jon Snow",
+    avatar:
+      "https://res.cloudinary.com/marusofteamwork/image/upload/v1625065903/frontendassessment/Photo_mnwpfg.png",
+    email: "jon@gmail.com",
+    status: "Active",
+    transactions: "$133.66",
+  },
+  {
+    id: 9,
+    username: "Jon Snow",
+    avatar:
+      "https://res.cloudinary.com/marusofteamwork/image/upload/v1625065903/frontendassessment/Photo_mnwpfg.png",
+    email: "jon@gmail.com",
+    status: "Active",
+    transactions: "$133.66",
+  },
+  {
+    id: 10,
+    username: "Jon Snow",
+    avatar:
+      "https://res.cloudinary.com/marusofteamwork/image/upload/v1625065903/frontendassessment/Photo_mnwpfg.png",
+    email: "jon@gmail.com",
+    status: "Active",
+    transactions: "$133.66",
+  },
+];
