@@ -1,7 +1,8 @@
 import React, { Fragment } from "react";
 import { DataGrid } from "@material-ui/data-grid";
 import { DeleteOutline } from "@material-ui/icons";
-import { userRows } from "../../userData"
+import { Link } from "react-router-dom";
+import { userRows } from "../../userData";
 import "./userList.css";
 
 const UserList = () => {
@@ -34,7 +35,7 @@ const UserList = () => {
       renderCell: (params) => {
         return (
           <Fragment>
-            <button className="user-list-edit">Edit</button>
+            <Link to={`/user/${params.row.id}`}><button className="user-list-edit">Edit</button></Link>
             <DeleteOutline className="user-list-delete" />
           </Fragment>
         );
