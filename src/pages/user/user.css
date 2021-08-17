@@ -1,0 +1,134 @@
+.user {
+  flex: 4;
+  padding: 1.25rem;
+}
+.user-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.user-title {
+}
+.user-edit-btn {
+  width: 80px;
+  border: none;
+  padding: 0.41rem;
+  background-color: teal;
+  color: #ffffff;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.user-container {
+  display: flex;
+  margin-top: 1.5rem;
+}
+.user-display {
+  flex: 1;
+  padding: 1.25rem;
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+.user-update {
+  flex: 2;
+  padding: 1.25rem;
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  margin-left: 1.25rem;
+}
+.user-display-top {
+  display: flex;
+  align-items: center;
+}
+.user-display-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.user-display-top-title {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.25rem;
+}
+.user-display-username {
+  font-weight: 600;
+}
+.user-dispplay-job {
+  font-weight: 300;
+}
+.user-display-bottom {
+  margin-top: 1.25rem;
+}
+.user-display-bottom-title {
+  font-size: 0.97rem;
+  font-weight: 600;
+  color: rgb(170, 166, 166);
+}
+.user-display-info {
+  display: flex;
+  align-items: center;
+  margin: 1.25rem 0rem;
+  color: #444444;
+}
+.user-display-icon {
+  font-size: 1rem !important;
+}
+.user-display-info-title {
+  margin-left: 0.625em;
+}
+
+.user-update-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.user-update-form {
+  display: flex;
+  justify-content: space-between;
+}
+.user-update-item {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.625rem;
+}
+.user-update-item > label {
+  margin-bottom: 0.4rem;
+  font-size: 0.95rem;
+}
+.user-update-input {
+  border: none;
+  outline: none;
+  width: 250px;
+  height: 30px;
+  border-bottom: 1px solid gray;
+}
+.user-update-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.user-update-upload {
+  display: flex;
+  align-items: center;
+}
+.user-update-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 1rem;
+}
+.user-upadte-icon {
+  cursor: pointer;
+}
+.user-update-button{
+  border: none;
+  border-radius: 5px;
+  padding: .3125rem;
+  background-color: darkblue;
+  color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+}
