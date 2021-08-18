@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom"
 import {
   Timeline,
   TrendingUp,
@@ -39,14 +40,18 @@ const sidebar = () => {
         <div className="sidebar-menu">
           <h3 className="sidebar-title">Quick Menu</h3>
           <ul className="sidebar-list">
-            <li className="sidebar-list-item">
-              <PermIdentity className="sidebar-icons" />
-              Users
-            </li>
-            <li className="sidebar-list-item">
-              <Storefront className="sidebar-icons" />
-              Products
-            </li>
+            <Link to="/users" className="link">
+              <li className="sidebar-list-item">
+                <PermIdentity className="sidebar-icons" />
+                Users
+              </li>
+            </Link>
+            <Link to="/products" className="link">
+              <li className="sidebar-list-item">
+                <Storefront className="sidebar-icons" />
+                Products
+              </li>
+            </Link>
             <li className="sidebar-list-item">
               <AttachMoney className="sidebar-icons" />
               Transactions
