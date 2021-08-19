@@ -7,10 +7,10 @@ import "./userList.css";
 
 const UserList = () => {
 
-  const [data, setdata] = useState(userRows);
+  const [data, setData] = useState(userRows);
 
   const handleDelete = (id) => {
-    setdata(data.filter((item) => item.id !== id))
+    setData(data.filter((item) => item.id !== id))
   }
 
   const columns = [

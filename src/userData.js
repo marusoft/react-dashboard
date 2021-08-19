@@ -49,6 +49,24 @@ export const userData = [
   },
 ];
 
+export const productData = [
+  {
+    name: "Jan",
+    "Sales": 4000,
+  },
+  {
+    name: "Feb",
+    "Sales": 2000,
+  },
+  {
+    name: "Mar",
+    "Sales": 3000,
+  },
+  
+];
+
+
+
 export const userRows = [
   {
     id: 1,
@@ -139,5 +157,88 @@ export const userRows = [
     email: "jon@gmail.com",
     status: "Active",
     transactions: "$133.66",
+  },
+];
+
+export const productRows = [
+  {
+    id: 1,
+    name: "Apple Airpods",
+    img: "https://res.cloudinary.com/marusofteamwork/image/upload/v1627628749/frontendassessment/smartphone.png",
+    stock: 124,
+    status: "Active",
+    price: "$133.66",
+  },
+  {
+    id: 2,
+    name: "Apple Airpods",
+    img: "https://res.cloudinary.com/marusofteamwork/image/upload/v1627628749/frontendassessment/smartphone.png",
+    stock: 124,
+    status: "Active",
+    price: "$133.66",
+  },
+  {
+    id: 3,
+    name: "Apple Airpods",
+    img: "https://res.cloudinary.com/marusofteamwork/image/upload/v1627628749/frontendassessment/smartphone.png",
+    stock: 124,
+    status: "Active",
+    price: "$133.66",
+  },
+  {
+    id: 4,
+    name: "Apple Airpods",
+    img: "https://res.cloudinary.com/marusofteamwork/image/upload/v1627628749/frontendassessment/smartphone.png",
+    stock: 124,
+    status: "Active",
+    price: "$133.66",
+  },
+  {
+    id: 5,
+    name: "Apple Airpods",
+    img: "https://res.cloudinary.com/marusofteamwork/image/upload/v1627628749/frontendassessment/smartphone.png",
+    stock: 124,
+    status: "Active",
+    price: "$133.66",
+  },
+  {
+    id: 6,
+    name: "Apple Airpods",
+    img: "https://res.cloudinary.com/marusofteamwork/image/upload/v1627628749/frontendassessment/smartphone.png",
+    stock: 124,
+    status: "Active",
+    price: "$133.66",
+  },
+  {
+    id: 7,
+    name: "Apple Airpods",
+    img: "https://res.cloudinary.com/marusofteamwork/image/upload/v1627628749/frontendassessment/smartphone.png",
+    stock: 124,
+    status: "Active",
+    price: "$133.66",
+  },
+  {
+    id: 8,
+    name: "Apple Airpods",
+    img: "https://res.cloudinary.com/marusofteamwork/image/upload/v1627628749/frontendassessment/smartphone.png",
+    stock: 124,
+    status: "Active",
+    price: "$133.66",
+  },
+  {
+    id: 9,
+    name: "Apple Airpods",
+    img: "https://res.cloudinary.com/marusofteamwork/image/upload/v1627628749/frontendassessment/smartphone.png",
+    stock: 124,
+    status: "Active",
+    price: "$133.66",
+  },
+  {
+    id: 10,
+    name: "Jon Snow",
+    img: "https://res.cloudinary.com/marusofteamwork/image/upload/v1627628749/frontendassessment/smartphone.png",
+    stock: 124,
+    status: "Active",
+    price: "$133.66",
   },
 ];
