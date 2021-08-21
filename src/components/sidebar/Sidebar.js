@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 import {
   Timeline,
   TrendingUp,
@@ -23,10 +23,12 @@ const sidebar = () => {
         <div className="sidebar-menu">
           <h3 className="sidebar-title">Dashboard</h3>
           <ul className="sidebar-list">
-            <li className="sidebar-list-item active">
-              <Dashboard className="sidebar-icons" />
-              Home
-            </li>
+            <Link to="/" className="link">
+              <li className="sidebar-list-item active">
+                <Dashboard className="sidebar-icons" />
+                Home
+              </li>
+            </Link>
             <li className="sidebar-list-item">
               <Timeline className="sidebar-icons" />
               Analytics
